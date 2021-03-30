@@ -1,0 +1,122 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+header {
+    background: #ebf5ff;
+    min-height: 100vh;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+.logo {
+    margin-top: 40px;
+}
+
+.header-content {}
+
+.header-content .call {
+    display: inline-block;
+    padding: 10px;
+    background: #ede2eb;
+    color: #ff3f3f;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.header-content h1 {
+    color: #292f35;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.header-content p {
+    color: #8a949f;
+    width: 60%;
+}
+
+.custom-form {}
+
+.custom-form input {
+    padding: 15px;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.custom-form .custom-btn {
+    background: #1b8bf9;
+    color: #fff;
+    box-shadow: 0 0 8px #1b8bf9;
+    border: none;
+    position: absolute;
+    right: -60px;
+    top: 10px;
+    z-index: 5;
+    text-transform: uppercase;
+}
+
+.boxes {
+    margin-top: -130px;
+}
+
+.box-content {
+    box-shadow: 0 0 5px #ddd;
+    width: 85%;
+    padding: 45px;
+    border-top: 5px solid #ff7c3f;
+    margin: auto;
+    background: white;
+    transition: .4s;
+}
+
+.box-content:hover {
+    box-shadow: 0 0 15px #ddd;
+    transform: translateY(-20px);
+}
+
+.box-content img {
+    width: 40%;
+}
+
+.box-content h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #292f35;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-content p {
+    color: #8a949f;
+    margin: 20px 0;
+}
+
+.box-content .btn1 {
+    display: inline-block;
+    background: #fff2eb;
+    color: #ff7c3f;
+    height: 30px;
+    width: 115px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.box-content .btn2 {
+    display: inline-block;
+    background: #fff2eb;
+    color: #ff7c3f;
+    height: 30px;
+    width: 115px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
